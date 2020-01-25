@@ -1,0 +1,114 @@
+
+/****Color Pallete
+#9F2032  red
+#0B4D8F  blue
+#0F528C  dark blue
+#BBBEC2  grey
+#BCBCBA  lighter grey
+#ffffff  white
+#3b5998  Facebook color
+****/
+
+/**Left Section***/
+#content-section .left-section .left-section-payment p {
+  color: #000000;
+  padding-top: 5px;
+}
+/**Right Section**/
+#content-section .right-section {
+  padding: 15px 60px 0 0;
+}
+/**Right section top**/
+#content-section .right-section .right-section-top {
+  text-align: center;
+  color: #0F528C;
+  font-weight: bold;
+}
+#content-section .right-section .right-section-top h1 {
+  font-size: 2.1em;
+  text-transform: uppercase;
+}
+#content-section .right-section .right-section-top span {
+  padding: 0 5px;
+  font-size: 1.2em;
+}
+#content-section .right-section .jap {
+  padding-top: 10px;
+  font-size: .75rem;
+  letter-spacing: 5px;
+}
+/**right section bottom**/
+#content-section .right-section .right-section-bottom {
+  padding-top: 15px;
+}
+#content-section .right-section .right-section-bottom-left {
+  width: 60%;
+  float: left;
+}
+#content-section .right-section .right-section-bottom-left li {
+  margin-top: 10px;
+  font-size: 1.15em;
+  padding-left: 10px;
+}
+#content-section .right-section .right-section-bottom-right {
+  width: 40%;
+  float: left;
+}
+#content-section .right-section .right-section-bottom-right img {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#content-section .right-section .extras {
+  width: 100%;
+}
+#content-section .right-section .extras h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #0F528C;
+  margin-left: 10px;
+}
+#content-section .right-section .extras ul {
+  padding-bottom: 25px;
+}
+#content-section .right-section .extras li {
+  margin-top: 10px;
+  font-size: 1.15em;
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #content-section .right-section .right-section-top h1 {
+    font-size: 1.7em;
+  }
+  #content-section .right-section .right-section-top span {
+    padding: 0 5px;
+    font-size: .9em;
+  }
+  #content-section .right-section .right-section-bottom-left {
+    width: 50%;
+  }
+
+  #content-section .right-section .jap {
+    font-size: .6rem;
+    letter-spacing: 4px;
+  }
+  #content-section .right-section .right-section-bottom-left li {
+    margin-top: 10px;
+    font-size: 1.0em;
+    padding-left: 10px;
+  }
+  #content-section .right-section .right-section-bottom-right {
+    display: none;
+  }
+  #content-section .right-section .extras h1 {
+    font-size: 1.8em;
+  }
+  #content-section .right-section .right-section-bottom-left ul {
+    padding-bottom: 15px;
+  }
+  #content-section .right-section .extras li {
+    font-size: 1.0em;
+  }
+}

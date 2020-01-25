@@ -1,0 +1,86 @@
+
+/****Color Pallete
+#9F2032  red
+#0B4D8F  blue
+#0F528C  dark blue
+#BBBEC2  grey
+#BCBCBA  lighter grey
+#ffffff  white
+#3b5998  Facebook color
+****/
+
+/*******
+The only thing I changed was the left and right content section and padding for the map image.
+I also made it responsive.
+**/
+
+/***Left Section***/
+#content-section .left-section img {
+  width: 100%;
+}
+
+/**right section***/
+#content-section .right-section {
+  padding: 15px 20px 0 0;
+  text-align: center;
+}
+#content-section .right-section h1, h2 {
+  color: #0F528C;
+  text-transform: uppercase;
+}
+#content-section .right-section p {
+  font-size: 18px;
+}
+#content-section .right-section .about-us {
+  padding-bottom: 40px;
+}
+#content-section .right-section .about-us h1 {
+  padding-bottom: 15px;
+  font-size: 33px;
+}
+
+#content-section .right-section .mission-statement {
+  padding-bottom: 40px;
+}
+#content-section .right-section .mission-statement h2 {
+  padding-bottom: 5px;
+}
+
+
+#content-section .right-section .story {
+
+}
+#content-section .right-section .story h2 {
+  padding-bottom: 8px;
+}
+#content-section .right-section .story span {
+  width: 100%;
+  color: #0F528C;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content-section .right-section .story p {
+  text-align: left;
+  padding-top: 30px;
+}
+/**Map Section**/
+#map-section .map img {
+  margin: 25px 10% 0 10%;
+}
+
+/**mobile devices***/
+@media only screen and (max-width: 767px) {
+  #content-section .right-section p {
+    font-size: 15px;
+  }
+  #content-section .right-section h2 {
+    font-size: 22px;
+  }
+  #content-section .right-section .about-us h1 {
+    padding-bottom: 15px;
+    font-size: 28px;
+  }
+  #content-section .right-section .story span {
+    font-size: 17px;
+  }
+}
